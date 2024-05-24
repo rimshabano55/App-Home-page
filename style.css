@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: rgba(116, 100, 124, 0.806);
+}
+.main-container {
+  background-color: black;
+  width: 302px;
+
+  margin: 0px auto;
+  height: 640px;
+  justify-content: center;
+  /* display: flex; */
+}
+nav {
+  display: flex;
+  color: wheat;
+  gap: 45px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 11px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.doodle-logo {
+  justify-content: center;
+  display: flex;
+  /* padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px; */
+  /* background-color: rgb(91, 80, 80); */
+  height: 100px;
+  width: 280px;
+  background-image: linear-gradient(to top, rgba(116, 100, 124, 0.806), black);
+}
+.doodle-pic {
+  /* background-color: rgb(91, 80, 80); */
+  height: 100px;
+  width: 280px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .img-1 {
+  justify-content: center;
+} */
+.google-icon {
+  width: 20px;
+  height: 20px;
+  padding-left: 9px;
+  padding-top: 5px;
+}
+.search-bar {
+  color: rgb(162, 150, 150);
+  padding-top: 8px;
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box-1 {
+  /* border-bottom-left-radius: 10px; */
+  display: flex;
+  gap: 20px;
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 185px;
+  height: 30px;
+  /* padding-left: 20px; */
+}
+.mic-1 {
+  stroke: aliceblue;
+  width: 16px;
+  width: 16px;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.box-2,
+.box-3 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 42px;
+  /* height: 50px; */
+}
+.cameara-1 {
+  stroke: aliceblue;
+  width: 16px;
+  height: 16px;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.main-3 {
+  display: flex;
+  gap: 5px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+/* .main-div {
+  width: 180px;
+  height: 30px;
+} */
+.div-1 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  /* gap: 7px; */
+  /* border: 1px solid rgb(173, 11, 11); */
+  justify-content: center;
+  padding-top: 10px;
+  /* padding-left: 5px; */
+}
+/* .code-icon {
+  display: flex;
+} */
+.code-1 {
+  stroke: rgb(252, 250, 250);
+  width: 26px;
+  height: 26px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.youtube-1 {
+  stroke: rgb(26, 24, 24);
+  fill: red;
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.spotify-1 {
+  stroke: black;
+  fill: green;
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.wiki-1 {
+  stroke: rgb(252, 250, 250);
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.xbox-1 {
+  fill: rgb(12, 87, 12);
+  stroke: rgb(207, 226, 207);
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.twitter-1 {
+  stroke: rgb(12, 112, 226);
+  fill: rgb(0, 136, 255);
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.git-1 {
+  stroke: rgb(24, 17, 17);
+  width: 28px;
+  height: 28px;
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+.airbnb-1 {
+  stroke: rgb(245, 85, 85);
+  width: 28px;
+  height: 28px;
+
+  padding-left: 2px;
+  /* padding-top: 5px; */
+}
+
+.code-link {
+  color: rgb(251, 248, 248);
+  font-size: 12px;
+}
+.code-head {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  /* padding-top: 5px; */
+  font-weight: bold;
+}
+.grid-1 {
+  /* padding-top: 25px; */
+  margin-top: 39px;
+  padding-left: 8px;
+  padding-right: 8px;
+  grid-template-columns: 145px 145px;
+  grid-template-rows: repeat(4, 50px);
+  display: grid;
+  row-gap: 5px;
+  border-radius: 20px;
+}
+.grid-2 {
+  grid-template-columns: 100px 100px;
+  grid-template-rows: repeat(1, 35px);
+  display: grid;
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 15px;
+  /* border-radius: 60px; */
+}
+
+.discover-head {
+  font-size: 12px;
+  justify-content: center;
+  display: flex;
+  padding-top: 7px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+.discover-1 {
+  /* width: 100px;
+  height: 35px; */
+
+  background-color: rgb(148, 133, 161);
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.following-1 {
+  background-color: rgb(102, 88, 115);
+  border-top-right-radius: 2px;
+}
+.following-head {
+  font-size: 12px;
+  padding-top: 7px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  color: aliceblue;
+}
+.div-2 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-3 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-4 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-5 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-6 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-7 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-8 {
+  background-color: rgba(116, 100, 124, 0.806);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.div-7,
+.div-8 {
+  border-radius: 5px;
+}
+.sparrow-1 {
+  width: 280px;
+  height: 160px;
+  object-fit: cover;
+  padding-left: 12px;
+  padding-top: 9px;
+  object-position: 90% 45%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.sparrow-pic {
+}
